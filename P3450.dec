@@ -34,6 +34,8 @@
   gTegraPinMuxProtocolGuid = { 0x9c11c45d, 0xc497, 0x4e95, { 0xac, 0x18, 0x9f, 0x91, 0xca, 0x8b, 0x15, 0xd1 } }
 
 [PcdsFixedAtBuild.common]
+  #UART
+  gP3450PkgTokenSpaceGuid.PcdTegra210UartAddress|0x70006000|UINT32|0x0000a308
   # Simple FrameBuffer
   #gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xc0000000|UINT32|0x0000a400
   # It's actually vertical.
@@ -51,6 +53,7 @@
   # Carveout information
   gP3450PkgTokenSpaceGuid.PcdTrustZoneCarveoutSize|0|UINT64|0x0000a404
 
+  # From the TRM 
   gEmbeddedTokenSpaceGuid.PcdPrePiCpuMemorySize|34|UINT32|0x0000a407
 
 [PcdsDynamic]

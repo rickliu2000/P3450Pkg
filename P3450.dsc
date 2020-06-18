@@ -126,7 +126,7 @@
   I2cLib|NintendoSwitchPkg/Library/I2cLib/I2cLib.inf
   GpioLib|NintendoSwitchPkg/Library/GpioLib/GpioLib.inf
   EarlyTimerLib|NintendoSwitchPkg/Library/EarlyTimerLib/EarlyTimerLib.inf
-  SerialPortLib|NintendoSwitchPkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
+  SerialPortLib|P3450Pkg/Library/SerialPortLib/SerialPortLib.inf
   Max7762xPmicLib|NintendoSwitchPkg/Library/Max7762xPmicLib/Max7762xPmicLib.inf
   UtilLib|NintendoSwitchPkg/Library/UtilLib/UtilLib.inf
   ClockLib|NintendoSwitchPkg/Library/ClockLib/ClockLib.inf
@@ -296,10 +296,10 @@
 
   # Display
   # Simple FrameBuffer
-  gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xdfb80000
-  gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|768
-  gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1280
-  gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
+  #gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xdfb80000
+  #gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|768
+  #gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1280
+  #gNintendoSwitchPkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
   # TrustZone carveout, 14MB below slot 1 top
   gNintendoSwitchPkgTokenSpaceGuid.PcdTrustZoneCarveoutSize|0xe00000
